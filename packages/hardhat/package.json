@@ -27,6 +27,7 @@
     "@typechain/hardhat": "^9.1.0",
     "@types/eslint": "^8",
     "@types/mocha": "^9.1.1",
+    "@types/openurl": "^1",
     "@types/prettier": "^2",
     "@types/qrcode": "^1",
     "@typescript-eslint/eslint-plugin": "latest",
@@ -51,6 +52,7 @@
     "@typechain/ethers-v6": "^0.5.1",
     "dotenv": "^16.0.3",
     "envfile": "^6.18.0",
+    "openurl": "^1.1.1",
     "qrcode": "^1.5.1"
   }
 }

@@ -2266,6 +2266,7 @@ __metadata:
     "@typechain/hardhat": ^9.1.0
     "@types/eslint": ^8
     "@types/mocha": ^9.1.1
+    "@types/openurl": ^1
     "@types/prettier": ^2
     "@types/qrcode": ^1
     "@typescript-eslint/eslint-plugin": latest
@@ -2281,6 +2282,7 @@ __metadata:
     hardhat-deploy: ^0.11.45
     hardhat-deploy-ethers: ^0.4.1
     hardhat-gas-reporter: ^1.0.9
+    openurl: ^1.1.1
     prettier: ^3.3.2
     qrcode: ^1.5.1
     solidity-coverage: ^0.8.5
@@ -2941,6 +2943,15 @@ __metadata:
   version: 0.2.1
   resolution: "@types/nprogress@npm:0.2.1"
   checksum: fe9db499f3d9cff90bad9f49336ff82ea444a51ca336a25ec401d18cc8fb12e546b622bdc11379491475c22cd4d9fb1195c805055cacb365627c667e52d618b1
+  languageName: node
+  linkType: hard
+
+"@types/openurl@npm:^1":
+  version: 1.0.3
+  resolution: "@types/openurl@npm:1.0.3"
+  dependencies:
+    "@types/node": "*"
+  checksum: a5454ca5cc08bc857231742aecd118e600cb7bd284ba72301bb46c4e55875b6ddc58ed32776b9d71843d1180aa7430cca7eb555a3f7b536aa4b54ebcdcc2a28b
   languageName: node
   linkType: hard
 
@@ -11162,6 +11173,13 @@ __metadata:
     is-docker: ^2.1.1
     is-wsl: ^2.2.0
   checksum: 6388bfff21b40cb9bd8f913f9130d107f2ed4724ea81a8fd29798ee322b361ca31fa2cdfb491a5c31e43a3996cfe9566741238c7a741ada8d7af1cb78d85cf26
+  languageName: node
+  linkType: hard
+
+"openurl@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "openurl@npm:1.1.1"
+  checksum: c90f2f065bc5950f1402aff67a3ce4b5fb0e4475cb07b5ff84247686f7436fbc5bc2d0e38bda4ebc9cf8aea866788424e07f25a68f7e97502d412527964351a9
   languageName: node
   linkType: hard
 
